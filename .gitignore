@@ -1,0 +1,51 @@
+# ----------------------------------------
+# Java + Maven + IntelliJ + macOS .gitignore
+# ----------------------------------------
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# IntelliJ build/output dirs
+out/
+classes/
+
+# Maven build directory
+target/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Eclipse (if someone imports in Eclipse)
+.project
+.classpath
+.settings/
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Crash logs (macOS / JVM)
+hs_err_pid*
+replay_pid*
+
+# VS Code (just in case someone opens it there)
+.vscode/
+
+# Node/npm (if frontend sneaks in)
+node_modules/
